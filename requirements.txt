@@ -1,0 +1,12 @@
+# Deep learning (CPU-only build — see note above)
+torch
+torchvision
+
+# Data / plotting (generate_figs.py)
+numpy
+pandas
+matplotlib
+
+# SSH + SCP file transfer (generate_figs.py, communication.py)
+paramiko
+scp
