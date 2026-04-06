@@ -5,7 +5,7 @@
 # It will also run "generate_configs.py" based on the given parameters
 
 ############### TODO CHANGE
-cloud_ip="10.157.23.156" #Change every time when new VPN is connected
+cloud_ip="172.29.203.224" #Change every time when new VPN is connected
 
 model_name="conv5small"
 loss_func_name="cross_entropy"
@@ -22,8 +22,8 @@ declare -a experiment_configs=(
 
 declare -a devices_configs=(
 # hw_type | host | port | cuda_name | local_epochs
-  "rpi sld-rpi-01.ece.utexas.edu 9090 cpu 1" #Change number of device
-  "mc1 sld-mc1-01.ece.utexas.edu 9090 cpu 1" #Change number of device
+  "rpi sld-rpi-16.ece.utexas.edu 9090 cpu 1" #Change number of device
+  "mc1 sld-mc1-16.ece.utexas.edu 9090 cpu 1" #Change number of device
 )
 ############### TODO END CHANGE
 

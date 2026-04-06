@@ -6,13 +6,13 @@ import torch
 
 def get_hw_info(hw_type, device_number=None):
     if hw_type == 'rpi':
-        password = "password"  # TODO change here password
+        password = "0Zw7Ql7M"  # TODO change here password
     elif hw_type == 'mc1':
-        password = "password"  # TODO change here password
+        password = "0Ta9Dd1C"  # TODO change here password
     elif hw_type.split('_')[0] == 'laptop':
-        password = "password" # TODO change here password
-        username = "username" # TODO change here username
-        local_path = "/home/username/ece_361e_fl" # TODO change here your path; make sure it ends with ece_361e_fl
+        password = "chikkilad00" # TODO change here password
+        username = "alphagamma-ubuntu" # TODO change here username
+        local_path = "/home/alphagamma-ubuntu/ece_361e_fl" # TODO change here your path; make sure it ends with ece_361e_fl
     else:
         print("[!] ERROR wrong device type.")
         return None
